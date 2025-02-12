@@ -7,9 +7,15 @@ description: 'Welcome to HuntReach.
 ## Guides
 
 <CardGroup cols={1}>
-  <Card horizontal title="Connect your email servers" icon="envelope" href="https://mintlify.com/docs/quickstart">
-  </Card>
+  <Dropdown title="Connect your email servers" icon="envelope">
+    <DropdownItem title="Comment connecter un compte Gmail ou G-Suite manuellement ?" href="https://mintlify.com/docs/quickstart/gmail-gsuite" />
+    <DropdownItem title="Comment connecter une nouvelle boîte email via SMTP/IMAP ?" href="https://mintlify.com/docs/quickstart/smtp-imap" />
+    <DropdownItem title="Comment importer plusieurs boîtes emails depuis un fichier CSV ?" href="https://mintlify.com/docs/quickstart/bulk-import" />
+    <DropdownItem title="Comment connecter un compte Microsoft 365 ou Outlook ?" href="https://mintlify.com/docs/quickstart/m365-outlook" />
+    <DropdownItem title="Comment connecter un compte Microsoft 365 ou Outlook via GoDaddy ?" href="https://mintlify.com/docs/quickstart/m365-outlook-godaddy" />
+  </Dropdown>
 
   <Card horizontal title="Import your leads" icon="user" href="https://mintlify.com/docs/development">
   </Card>
 </CardGroup>
+
