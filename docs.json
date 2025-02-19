@@ -7,39 +7,46 @@
       "destination": "/dics"
     }
   ],
+  "theme": "maple",
   "logo": {
-    "href": "/docs",
+    "href": "https://docs.huntreach.com",
     "dark": "/logo/logo.png",
     "light": "/logo/logo.png"
   },
   "favicon": "/logo/logo.png",
   "colors": {
-    "background": {
-      "dark": "#141414"
-    },
     "primary": "#2562ea",
     "light": "#2562ea",
-    "dark": "#2562ea",
-    "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
-    }
+    "dark": "#2562ea"
   },
-  "navigation": [
-    {
-      "group": "",
-      "pages": [
-        "./docs"
-      ]
-    },
-    {
-      "group": "Essentials",
-      "pages": [
-        "essentials/connect-email-servers",
-        "essentials/import-leads"
-      ]
-    }
-  ],
+  "navigation": {
+    "languages": [
+      {
+        "language": "en",
+        "groups": [
+          {
+            "group": "Essentials",
+            "pages": [
+              "en/essentials/connect-email-servers",
+              "en/essentials/import-leads"
+            ]
+          }
+        ]
+      },
+      {
+        "language": "fr",
+        "groups": [
+          {
+            "group": "Les essentiels",
+            "pages": [
+              "fr/essentials/connect-email-servers",
+              "fr/essentials/import-leads"
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "topbarLinks": [
     {
       "name": "Support",
