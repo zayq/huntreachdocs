@@ -1,0 +1,117 @@
+---
+title: 'Connecter un compte Gmail'
+description: 'Apprenez à connecter une adresse Gmail à HuntReach via SMTP/IMAP en toute sécurité.'
+icon: 'google'
+---
+
+---
+
+## 🔗 Étape 1 : Se Connecter à Votre Compte Gmail
+
+La première étape consiste à vous connecter à votre compte Gmail. Cette étape est essentielle avant de configurer votre adresse sur HuntReach.
+
+### Comment se connecter à Gmail :
+
+1. **Ouvrir Gmail** : Accédez à Gmail via votre navigateur ou l’application mobile.
+2. **Saisir vos informations de connexion** : Entrez votre adresse email Google ou votre numéro de téléphone, suivi de votre mot de passe.
+3. **Accéder à votre boîte de réception** : Une fois connecté, vous pouvez consulter votre boîte de réception pour vérifier que tout fonctionne correctement.
+
+> ℹ️ **Conseil** : Si vous utilisez un ordinateur public, veillez à vous déconnecter après chaque session pour protéger vos informations.
+
+---
+
+## 📝 Étape 2 : Activer la Connexion IMAP sur Gmail
+
+Pour que Huntreach puisse accéder à votre compte Gmail, il est crucial **d’activer l’IMAP**. Ce protocole permet aux applications tierces de synchroniser vos emails sans les supprimer du serveur.
+
+### 📌 Qu’est-ce que l’IMAP ?
+
+IMAP (_Internet Message Access Protocol_) permet à votre client de messagerie d’accéder directement aux emails sur le serveur, contrairement au **POP3** qui les télécharge et les supprime.
+
+### 🚀 Pourquoi activer l’IMAP ?
+
+HuntReach utilise l’IMAP pour récupérer et gérer vos emails sans interférer avec votre boîte de réception.
+
+### ✅ Comment activer l’IMAP sur Gmail ?
+
+1. **Accédez aux paramètres Gmail** :
+   - Cliquez sur l’icône en forme de roue dentée en haut à droite.
+   - Sélectionnez **« Voir tous les paramètres »**.
+2. **Ouvrez l’onglet « Transfert et POP/IMAP »**.
+3. **Activez l’IMAP** :
+   - Sous **« Accès IMAP »**, sélectionnez **« Activer IMAP »**.
+   - Cliquez sur **« Enregistrer les modifications »**.
+
+> 🎉 Une fois cette étape terminée, votre IMAP est activé avec succès !
+
+---
+
+## 🔐 Étape 3 : Activer la Double Authentification sur Votre Compte Gmail
+
+Pour renforcer la sécurité de votre compte, **il est recommandé d’activer la double authentification (2FA)**. Cette couche de sécurité est indispensable pour connecter votre compte Gmail à Huntreach.
+
+### 🔑 Comment activer la double authentification ?
+
+1. **Accédez à votre compte Gmail**.
+2. **Allez sur ce lien** :  
+   👉 [Activation de la validation en deux étapes](https://myaccount.google.com/signinoptions/two-step-verification)
+3. **Activez la double authentification** :
+   - Dans la section **« Connexion à Google »**, cliquez sur **« Validation en deux étapes »**.
+   - Suivez les instructions pour activer cette fonctionnalité.
+4. **Configurer votre méthode de vérification** :
+   - Choisissez entre **SMS, une application d’authentification (Google Authenticator), ou une clé de sécurité physique**.
+
+> ⚠️ **Attention** : Si vous avez déjà activé la double authentification, vous pouvez directement passer à l’étape suivante.
+
+---
+
+## 🔑 Étape 4 : Créer et Activer un Mot de Passe d'Application pour Gmail
+
+Huntreach ne peut pas utiliser directement votre mot de passe Gmail. **Google exige un mot de passe spécifique aux applications** pour sécuriser votre connexion.
+
+### 🎯 Comment créer un mot de passe d’application :
+
+1. **Accédez à Google App Passwords** :  
+   👉 [Génération d’un mot de passe d’application](https://myaccount.google.com/apppasswords)
+2. **Sélectionnez l’application et l’appareil** :
+   - Choisissez **« Mail »** dans le menu déroulant.
+   - Sélectionnez **« Autre (Nom personnalisé) »**, et nommez-le par exemple **« HuntReach »**.
+3. **Générez le mot de passe** et **notez-le quelque part**.
+   - **Important** : Ce mot de passe **n’apparaîtra qu’une seule fois** !
+
+> 🔐 **Stockez votre mot de passe d’application en sécurité**, car il ne peut pas être récupéré après sa génération.
+
+---
+
+## ✅ Étape 5 : Connecter Votre Gmail à Huntreach
+
+Vous êtes maintenant prêt à connecter votre adresse Gmail à Huntreach pour envoyer des campagnes de cold email.
+
+### 📌 Étapes pour connecter Gmail à Huntreach :
+
+1. **Accédez à votre compte Huntreach**.
+2. **Allez dans les paramètres d’email** :  
+   👉 [Paramètres Huntreach](https://app.huntreach.com/dashboard/settings/emails).
+3. **Connectez votre email** :
+   - Cliquez sur **« Connect Email »**.
+   - Sélectionnez **« Gmail »**.
+   - Entrez votre adresse Gmail et **le mot de passe d’application** que vous avez généré.
+4. **Ajoutez votre signature** :
+   - Ajoutez une signature personnalisée qui apparaîtra dans vos campagnes d’emails.
+5. **Finalisez la connexion** en cliquant sur **« Connect Email »**.
+
+> 🎉 **Félicitations !** Votre compte Gmail est maintenant connecté à Huntreach.
+
+---
+
+## 🔍 Étape 6 : Résolution des problèmes courants
+
+Si vous rencontrez des difficultés, voici quelques solutions :
+
+| Problème                             | Solution                                                              |
+| ------------------------------------ | --------------------------------------------------------------------- |
+| **Erreur de connexion**              | Vérifiez que votre mot de passe d’application est correctement saisi. |
+| **IMAP désactivé**                   | Assurez-vous d’avoir activé IMAP dans les paramètres Gmail.           |
+| **Double authentification inactive** | Activez la 2FA avant de générer un mot de passe d’application.        |
+
+> ❌ **Besoin d’aide ?** Si le problème persiste, contactez le support de HuntReach pour une assistance personnalisée.

@@ -25,10 +25,10 @@
         "language": "en",
         "groups": [
           {
-            "group": "Essentials",
+            "group": "Email Servers",
             "pages": [
-              "en/essentials/connect-email-servers",
-              "en/essentials/import-leads"
+              "en/emails/connect-email-servers",
+              "en/emails/google"
             ]
           }
         ]
@@ -37,10 +37,10 @@
         "language": "fr",
         "groups": [
           {
-            "group": "Les essentiels",
+            "group": "Serveurs Mail",
             "pages": [
-              "fr/essentials/connect-email-servers",
-              "fr/essentials/import-leads"
+              "fr/emails/connect-email-servers",
+              "fr/emails/google"
             ]
           }
         ]
