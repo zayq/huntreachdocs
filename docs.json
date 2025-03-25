@@ -19,7 +19,8 @@
   "theme": "maple",
   "logo": {
     "dark": "/logo/logo.png",
-    "light": "/logo/logo.png"
+    "light": "/logo/logo.png",
+    "href": "https://huntreach.com/en/docs"
   },
   "favicon": "/logo/logo.png",
   "colors": {
