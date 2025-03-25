@@ -37,7 +37,7 @@
         ],
         "groups": [
           {
-            "group": "Serveurs Mail",
+            "group": "Email Servers",
             "pages": [
               "en/emails/connect-email-servers",
               "en/emails/bulk",
@@ -46,7 +46,7 @@
             ]
           },
           {
-            "group": "Listes",
+            "group": "Lists",
             "pages": [
               "en/lists/create",
               "en/lists/tags"
