@@ -13,7 +13,6 @@
   ],
   "theme": "maple",
   "logo": {
-    "href": "https://docs.huntreach.com/docs",
     "dark": "/logo/logo.png",
     "light": "/logo/logo.png"
   },
@@ -27,6 +26,9 @@
     "languages": [
       {
         "language": "en",
+        "logo": {
+          "href": "https://docs.huntreach.com/en/docs"
+        },
         "groups": [
           {
             "group": "Email Servers",
