@@ -1,21 +1,59 @@
 ---
-title: Connect Email Servers
-description: 'Welcome to HuntReach.
-'
+title: 'Connexion Manuelle'
+description: 'Apprenez à connecter une boîte email à HuntReach via SMTP/IMAP manuellement pour tous les fournisseurs.'
+icon: 'gear'
 ---
 
-## Guides
+---
 
-<CardGroup cols={1}>
-  <Dropdown title="Connect your email servers" icon="envelope">
-    <DropdownItem title="Comment connecter un compte Gmail ou G-Suite manuellement ?" href="https://mintlify.com/docs/quickstart/gmail-gsuite" />
-    <DropdownItem title="Comment connecter une nouvelle boîte email via SMTP/IMAP ?" href="https://mintlify.com/docs/quickstart/smtp-imap" />
-    <DropdownItem title="Comment importer plusieurs boîtes emails depuis un fichier CSV ?" href="https://mintlify.com/docs/quickstart/bulk-import" />
-    <DropdownItem title="Comment connecter un compte Microsoft 365 ou Outlook ?" href="https://mintlify.com/docs/quickstart/m365-outlook" />
-    <DropdownItem title="Comment connecter un compte Microsoft 365 ou Outlook via GoDaddy ?" href="https://mintlify.com/docs/quickstart/m365-outlook-godaddy" />
-  </Dropdown>
+## 🔗 Étape 1 : Accéder à la page de connexion des emails
 
-  <Card horizontal title="Import your leads" icon="user" href="https://mintlify.com/docs/development">
-  </Card>
-</CardGroup>
+1. Accédez à la page de connexion des emails de HuntReach :  
+   [Connexion des emails](https://app.huntreach.com/dashboard/settings/emails).
+2. Cliquez sur **"Connecter une nouvelle boîte email"**, puis sélectionnez **"Custom Email"** pour une configuration manuelle.
 
+> ℹ️ **Astuce** : Assurez-vous que votre fournisseur d'email autorise la connexion via SMTP/IMAP et que ces options sont bien activées.
+
+---
+
+## 📝 Étape 2 : Remplir le formulaire sur HuntReach
+
+Remplissez les champs suivants :
+
+| Champs             | Description                                                                               |
+| ------------------ | ----------------------------------------------------------------------------------------- |
+| **Email**          | L’adresse email à connecter (exemple : `thomas@huntreach.net`).                           |
+| **Display Name**   | Le nom d’affichage utilisé pour les emails (exemple : `Thomas Pecquet`).                  |
+| **Password**       | Le mot de passe ou un mot de passe d’application si nécessaire.                           |
+| **IMAP Host**      | Le serveur IMAP de votre fournisseur (exemple : `imap.gmail.com`).                        |
+| **IMAP Port**      | Le port IMAP (exemple : `993`).                                                           |
+| **SMTP Host**      | Le serveur SMTP de votre fournisseur (exemple : `smtp.gmail.com`).                        |
+| **SMTP Port**      | Le port SMTP (exemple : `465`).                                                           |
+| **Warmup Enabled** | (optionnel) Indiquez si vous souhaitez activer le warmup pour cette adresse (TRUE/FALSE). |
+| **Signature**      | (optionnel) Ajoutez une signature personnalisée ou laissez vide.                          |
+
+Vérifiez toutes les informations avant de valider.
+
+> ⚠️ **Important** : Si vous utilisez l'authentification en deux étapes, vous devrez générer un mot de passe d'application pour votre compte.
+
+---
+
+## ✅ Étape 4 : Connecter l’adresse email
+
+1. Cliquez sur le bouton **"Connect Email"**.
+2. Si tout est correctement configuré, votre adresse email sera connectée avec succès.
+
+> 🎉 **Félicitations !** Votre boîte email est maintenant connectée et prête à être utilisée dans HuntReach.
+
+---
+
+## 🔍 Étape 5 : Résolution des problèmes courants
+
+Si vous rencontrez des difficultés lors de la connexion :
+
+| Problème                | Solution                                                                                     |
+| ----------------------- | -------------------------------------------------------------------------------------------- |
+| **Erreur de connexion** | Vérifiez votre mot de passe et les informations IMAP/SMTP fournies.                          |
+| **SMTP/IMAP désactivé** | Assurez-vous que ces options sont activées dans les paramètres de votre fournisseur d’email. |
+
+> ❌ **Besoin d’aide ?** Si le problème persiste, contactez le support de HuntReach pour une assistance personnalisée.

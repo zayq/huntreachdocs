@@ -3,13 +3,17 @@
   "name": "HuntReach",
   "redirects": [
     {
-      "source": "/",
-      "destination": "/dics"
+      "source": "/fr",
+      "destination": "/fr/docs"
+    },
+    {
+      "source": "/en",
+      "destination": "/en/docs"
     }
   ],
   "theme": "maple",
   "logo": {
-    "href": "https://docs.huntreach.com",
+    "href": "https://docs.huntreach.com/docs",
     "dark": "/logo/logo.png",
     "light": "/logo/logo.png"
   },
@@ -35,12 +39,23 @@
       },
       {
         "language": "fr",
+        "pages": [
+          "/fr/docs"
+        ],
         "groups": [
           {
             "group": "Serveurs Mail",
             "pages": [
               "fr/emails/connect-email-servers",
-              "fr/emails/google"
+              "fr/emails/bulk",
+              "fr/emails/google",
+              "fr/emails/microsoft"
+            ]
+          },
+          {
+            "group": "Listes",
+            "pages": [
+              "fr/lists/create"
             ]
           }
         ]
