@@ -1,54 +1,54 @@
 ---
-title: 'Connexion en Bulk'
-description: 'Ajoutez plusieurs adresses emails expéditrices sur HuntReach via un fichier CSV.'
+title: 'Bulk Connection'
+description: 'Add multiple sender email addresses to HuntReach using a CSV file.'
 icon: 'upload'
 ---
 
 ---
 
-## 📥 Étape 1 : Accéder à l’importation en masse
+## 📥 Step 1: Access the bulk import page
 
-1. Accédez à la page dédiée :  
-   👉 [Importation en masse HuntReach](https://app.huntreach.com/dashboard/email-accounts/bulk)
-2. Téléchargez le modèle CSV ici :  
-   👉 [Modèle Google Sheets](https://docs.google.com/spreadsheets/d/1OoFFyXtlLmvQxu34yXs8aMvLaaFIS6ZRSJ4CLhLmL4w/edit?gid=784218695)
+1. Go to the dedicated page:  
+   👉 [HuntReach Bulk Import](https://app.huntreach.com/dashboard/email-accounts/bulk)
+2. Download the CSV template here:  
+   👉 [Google Sheets Template](https://docs.google.com/spreadsheets/d/1OoFFyXtlLmvQxu34yXs8aMvLaaFIS6ZRSJ4CLhLmL4w/edit?gid=784218695)
 
-> ℹ️ **Astuce** : Dupliquez le fichier (`Fichier → Créer une copie`) pour pouvoir le modifier dans votre Drive.
-
----
-
-## 📝 Étape 2 : Compléter le fichier
-
-Remplissez les colonnes comme indiqué :
-
-| Colonne          | Description                                            |
-| ---------------- | ------------------------------------------------------ |
-| **Email**        | Adresse à connecter (ex: `thomas@huntreach.net`)       |
-| **Display Name** | Nom d’expéditeur affiché (ex: `Thomas de HuntReach`)   |
-| **Password**     | Mot de passe ou mot de passe d’application             |
-| **IMAP Host**    | Serveur IMAP (ex: `imap.gmail.com`)                    |
-| **IMAP Port**    | Port IMAP sécurisé (ex: `993`)                         |
-| **SMTP Host**    | Serveur SMTP (ex: `smtp.gmail.com`)                    |
-| **SMTP Port**    | Port SMTP sécurisé (ex: `465`)                         |
-| **Warmup**       | TRUE / FALSE selon si vous activez le warmup           |
-| **Signature**    | (Optionnel) Signature HTML personnalisée ou champ vide |
+> ℹ️ **Tip**: Make a copy (`File → Make a copy`) to edit the file in your own Drive.
 
 ---
 
-## 📤 Étape 3 : Importer le fichier
+## 📝 Step 2: Fill out the file
 
-1. Depuis Google Sheets :  
-   `Fichier → Télécharger → Valeurs séparées par des virgules (.csv)`
-2. Sur HuntReach :  
-   Retournez sur la page d’import → **Importer un fichier CSV** → sélectionnez votre fichier.
+Fill in the columns as follows:
 
-> ⚠️ **Important** : Le fichier CSV ne doit contenir qu’une seule feuille.
+| Column           | Description                                         |
+| ---------------- | --------------------------------------------------- |
+| **Email**        | Address to connect (e.g., `thomas@huntreach.net`)   |
+| **Display Name** | Sender name shown (e.g., `Thomas from HuntReach`)   |
+| **Password**     | Account password or application-specific password   |
+| **IMAP Host**    | IMAP server (e.g., `imap.gmail.com`)                |
+| **IMAP Port**    | Secure IMAP port (e.g., `993`)                      |
+| **SMTP Host**    | SMTP server (e.g., `smtp.gmail.com`)                |
+| **SMTP Port**    | Secure SMTP port (e.g., `465`)                      |
+| **Warmup**       | TRUE / FALSE depending on whether warmup is enabled |
+| **Signature**    | (Optional) Custom HTML signature or leave blank     |
 
 ---
 
-## ✅ Étape 4 : Vérification finale
+## 📤 Step 3: Import the file
 
-- Vérifiez le statut de chaque email dans HuntReach.
-- En cas d’échec, corrigez les données dans le CSV et réimportez.
+1. From Google Sheets:  
+   `File → Download → Comma-separated values (.csv)`
+2. On HuntReach:  
+   Go back to the import page → **Import a CSV file** → select your file.
+
+> ⚠️ **Important**: The CSV file must contain only one sheet.
+
+---
+
+## ✅ Step 4: Final check
+
+- Verify the status of each email in HuntReach.
+- If any fail, fix the data in the CSV and re-import.
 
 ---

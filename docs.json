@@ -9,6 +9,11 @@
     {
       "source": "/en",
       "destination": "/en/docs"
+    },
+    {
+      "source": "/",
+      "destination": "/en/docs",
+      "permanent": true
     }
   ],
   "theme": "maple",
@@ -26,15 +31,24 @@
     "languages": [
       {
         "language": "en",
-        "logo": {
-          "href": "https://docs.huntreach.com/en/docs"
-        },
+        "pages": [
+          "/en/docs"
+        ],
         "groups": [
           {
-            "group": "Email Servers",
+            "group": "Serveurs Mail",
             "pages": [
               "en/emails/connect-email-servers",
-              "en/emails/google"
+              "en/emails/bulk",
+              "en/emails/google",
+              "en/emails/microsoft"
+            ]
+          },
+          {
+            "group": "Listes",
+            "pages": [
+              "en/lists/create",
+              "en/lists/tags"
             ]
           }
         ]

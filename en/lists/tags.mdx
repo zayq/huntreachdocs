@@ -1,0 +1,96 @@
+---
+title: 'Tags'
+description: 'Create and import tags to segment your contacts and analyze your performance.'
+icon: 'tag'
+---
+
+---
+
+## 🏷️ What is a tag on HuntReach?
+
+**Tags** are custom attributes associated with your contacts.  
+They help you:
+
+- Segment your lists
+- Precisely target your campaigns
+- Analyze performance by group
+
+> 🧠 Tags are **not dynamic**: you can't use them as variables in your emails (`{{name}}`). They're meant for **segmentation and analysis**, not content personalization.
+
+---
+
+## ✍️ Creating tags in a Google Sheets or Excel file
+
+### Step 1: Recommended file structure
+
+| Email           | Position | Industry   | City          | TAGS                           |
+| --------------- | -------- | ---------- | ------------- | ------------------------------ |
+| elon@tesla.com  | CEO      | Automotive | San Francisco | CEO, Automotive, San Francisco |
+| jeff@amazon.com | Founder  | E-commerce | Seattle       | Founder, E-commerce, Seattle   |
+
+> ✅ **Best practices**:
+>
+> - Prefer descriptive tags like `CEO, E-commerce` instead of just `Yes/No`
+> - All tags should be in a single cell, separated by commas
+
+---
+
+### Step 2: Automatically generate tags
+
+In Google Sheets, insert this formula in the `TAGS` column:
+
+Then **copy and paste values** to freeze the content:
+
+- `Ctrl + Shift + V` (Google Sheets)
+- `Paste special > Values` (Excel)
+
+---
+
+### Step 3: Export as CSV
+
+- **Google Sheets**: `File → Download → .csv`
+- **Excel**: `File → Save As → CSV (UTF-8)`
+
+---
+
+## 📤 Import your file into HuntReach
+
+1. Go to [HuntReach Contacts](https://app.huntreach.com/dashboard/contacts)
+2. Create a new list
+3. Import your `.csv` file:
+   - Make sure the email column is named **`email`** or **`e-mail`**
+4. Review the preview
+5. Click on **"Import Data"**
+
+> ✅ A confirmation message will appear:  
+> **"Contacts successfully added to the list!"**
+
+---
+
+## 📊 Why use tags?
+
+- **Target** the right segments (e.g. SaaS SMBs in Paris)
+- **Compare** response rates by group
+- **Optimize** campaigns based on results
+
+---
+
+## 💬 Useful tag examples
+
+| Type         | Examples                                       |
+| ------------ | ---------------------------------------------- |
+| Demographic  | Paris, France, 25-34 years old                 |
+| Professional | CEO, SaaS, 5 years experience, Uses HubSpot    |
+| Behavioral   | Viewed my LinkedIn profile, Attended a webinar |
+
+---
+
+## ✅ Summary
+
+**Tags** help you:
+
+- Structure your lead database
+- Launch highly targeted campaigns
+- Boost your cold email performance
+
+The more precise your tags, the better your results. 🚀

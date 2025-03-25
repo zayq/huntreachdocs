@@ -1,57 +1,57 @@
 ---
-title: 'Connecter un compte Outlook/Microsoft 365'
-description: 'Activer SMTP/IMAP sur Microsoft 365 ou Outlook et connecter votre compte à HuntReach.'
+title: 'Connect an Outlook/Microsoft 365 Account'
+description: 'Enable SMTP/IMAP on Microsoft 365 or Outlook and connect your account to HuntReach.'
 icon: 'microsoft'
 ---
 
 ---
 
-## 🛠️ Étape 1 : Accéder au Microsoft Admin Center
+## 🛠️ Step 1: Access the Microsoft Admin Center
 
-1. Connectez-vous avec votre compte administrateur sur :  
+1. Sign in with your admin account at:  
    👉 [Microsoft Admin Center](https://admin.microsoft.com/Adminportal)
-2. Allez dans la section **Utilisateurs actifs** :  
+2. Go to the **Active Users** section:  
    👉 [Active Users](https://admin.microsoft.com/adminportal/home#/users)
 
 ---
 
-## ⚙️ Étape 2 : Activer les apps de messagerie
+## ⚙️ Step 2: Enable email apps
 
-1. Cliquez sur l’utilisateur concerné pour ouvrir le panneau latéral.
-2. Allez dans l’onglet **Mail**, puis cliquez sur **Manage email apps**.
-3. Activez les options suivantes :
+1. Click the relevant user to open the side panel.
+2. Go to the **Mail** tab and click **Manage email apps**.
+3. Enable the following options:
    - ✅ **IMAP**
    - ✅ **Authenticated SMTP**
-4. Cliquez sur **Save changes** pour enregistrer.
+4. Click **Save changes** to apply.
 
-> ⚠️ **Important** : Ces options sont nécessaires pour autoriser une connexion SMTP/IMAP via HuntReach.
-
----
-
-## ⏳ Étape 3 : Attendre l’activation
-
-- Patientez environ **1 heure** pour que les paramètres soient appliqués.
-- Ensuite, retournez sur HuntReach pour connecter votre compte Outlook/Microsoft 365.
+> ⚠️ **Important**: These settings are required to allow SMTP/IMAP connections through HuntReach.
 
 ---
 
-## 🔗 Étape 4 : Connecter le compte sur HuntReach
+## ⏳ Step 3: Wait for activation
 
-1. Accédez aux paramètres email :  
-   👉 [Paramètres Email HuntReach](https://app.huntreach.com/dashboard/settings/emails)
-2. Cliquez sur **Connect Email**.
-3. Choisissez l’option **Custom Email**.
-4. Renseignez les champs SMTP/IMAP suivants :
+- Wait around **1 hour** for the changes to take effect.
+- Then return to HuntReach to connect your Outlook/Microsoft 365 account.
 
-| Champ         | Valeur recommandée                                |
-| ------------- | ------------------------------------------------- |
-| **Email**     | Votre adresse email Microsoft 365/Outlook         |
-| **IMAP Host** | `outlook.office365.com`                           |
-| **IMAP Port** | `993`                                             |
-| **SMTP Host** | `smtp.office365.com`                              |
-| **SMTP Port** | `587`                                             |
-| **Password**  | Le mot de passe du compte (ou mot de passe d'app) |
+---
 
-> 🔐 **Sécurité** : Si la double authentification est activée, vous devrez générer un **mot de passe d’application** dans votre compte Microsoft.
+## 🔗 Step 4: Connect the account on HuntReach
+
+1. Go to the email settings:  
+   👉 [HuntReach Email Settings](https://app.huntreach.com/dashboard/settings/emails)
+2. Click **Connect Email**.
+3. Choose the **Custom Email** option.
+4. Fill in the following SMTP/IMAP fields:
+
+| Field         | Recommended Value                                |
+| ------------- | ------------------------------------------------ |
+| **Email**     | Your Microsoft 365/Outlook email address         |
+| **IMAP Host** | `outlook.office365.com`                          |
+| **IMAP Port** | `993`                                            |
+| **SMTP Host** | `smtp.office365.com`                             |
+| **SMTP Port** | `587`                                            |
+| **Password**  | Your account password (or app-specific password) |
+
+> 🔐 **Security**: If two-factor authentication is enabled, you'll need to generate an **app password** from your Microsoft account.
 
 ---
