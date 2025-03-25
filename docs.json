@@ -55,7 +55,8 @@
           {
             "group": "Listes",
             "pages": [
-              "fr/lists/create"
+              "fr/lists/create",
+              "fr/lists/tags"
             ]
           }
         ]

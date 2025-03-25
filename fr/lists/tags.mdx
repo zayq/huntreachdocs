@@ -1,0 +1,96 @@
+---
+title: 'Les tags'
+description: 'Créez et importez des tags pour segmenter vos contacts et analyser vos performances.'
+icon: 'tag'
+---
+
+---
+
+## 🏷️ Qu’est-ce qu’un tag sur HuntReach ?
+
+Les **tags** sont des attributs personnalisés associés à vos contacts.  
+Ils servent à :
+
+- Segmenter vos listes
+- Cibler précisément vos campagnes
+- Analyser les performances par groupe
+
+> 🧠 Les tags ne sont **pas dynamiques** : vous ne pouvez pas les utiliser comme variables dans vos emails (`{{nom}}`). Ils sont dédiés à la **segmentation et l’analyse**, pas à la personnalisation de contenu.
+
+---
+
+## ✍️ Créer des tags dans un fichier Google Sheets ou Excel
+
+### Étape 1 : Structure recommandée du fichier
+
+| Email           | Poste   | Secteur    | Ville         | TAGS                           |
+| --------------- | ------- | ---------- | ------------- | ------------------------------ |
+| elon@tesla.com  | CEO     | Automobile | San Francisco | CEO, Automobile, San Francisco |
+| jeff@amazon.com | Founder | E-commerce | Seattle       | Founder, E-commerce, Seattle   |
+
+> ✅ **Bonnes pratiques** :
+>
+> - Préférez des tags descriptifs comme `CEO, E-commerce` plutôt que juste `Oui/Non`
+> - Tous les tags doivent être dans une seule cellule séparés par des virgules
+
+---
+
+### Étape 2 : Générer les tags automatiquement
+
+Dans Google Sheets, insère cette formule dans la colonne `TAGS` :
+
+Puis **copie-colle les valeurs** pour figer le contenu :
+
+- `Ctrl + Shift + V` (Google Sheets)
+- `Collage spécial > Valeurs` (Excel)
+
+---
+
+### Étape 3 : Exporter en CSV
+
+- **Google Sheets** : `Fichier → Télécharger → .csv`
+- **Excel** : `Fichier → Enregistrer sous → CSV (UTF-8)`
+
+---
+
+## 📤 Importer votre fichier sur HuntReach
+
+1. Accédez à [HuntReach Contacts](https://app.huntreach.com/dashboard/contacts)
+2. Créez une nouvelle liste
+3. Importez votre fichier `.csv` :
+   - Assurez-vous que la colonne email s’appelle **`email`** ou **`e-mail`**
+4. Vérifiez la prévisualisation
+5. Cliquez sur **"Import Data"**
+
+> ✅ Un message de confirmation s’affichera :  
+> **"Contacts successfully added to the list!"**
+
+---
+
+## 📊 Pourquoi utiliser des tags ?
+
+- **Cibler** les bons segments (ex : PME SaaS à Paris)
+- **Comparer** les taux de réponse par groupe
+- **Optimiser** vos campagnes en fonction des résultats
+
+---
+
+## 💬 Exemples de tags utiles
+
+| Type            | Exemples                                           |
+| --------------- | -------------------------------------------------- |
+| Démographiques  | Paris, France, 25-34 ans                           |
+| Professionnels  | CEO, SaaS, 5 ans d’expérience, Utilise HubSpot     |
+| Comportementaux | A vu mon profil LinkedIn, A participé à un webinar |
+
+---
+
+## ✅ En résumé
+
+Les **tags** vous aident à :
+
+- Structurer vos bases de leads
+- Lancer des campagnes ultra ciblées
+- Booster vos performances de cold email
+
+Plus vos tags sont précis, meilleurs seront vos résultats. 🚀
