@@ -19,8 +19,7 @@
   "theme": "maple",
   "logo": {
     "dark": "/logo/logo.png",
-    "light": "/logo/logo.png",
-    "href": "https://docs.huntreach.com/en/docs"
+    "light": "/logo/logo.png"
   },
   "favicon": "/logo/logo.png",
   "colors": {
@@ -32,10 +31,13 @@
     "languages": [
       {
         "language": "en",
-        "pages": [
-          "/en/docs"
-        ],
         "groups": [
+          {
+            "group": "Quick Start",
+            "pages": [
+              "/en/docs"
+            ]
+          },
           {
             "group": "Email Servers",
             "pages": [
@@ -61,6 +63,12 @@
         ],
         "groups": [
           {
+            "group": "Démarrage rapide",
+            "pages": [
+              "/fr/docs"
+            ]
+          },
+          {
             "group": "Serveurs Mail",
             "pages": [
               "fr/emails/connect-email-servers",
@@ -80,19 +88,21 @@
       }
     ]
   },
-  "topbarLinks": [
-    {
-      "name": "Support",
-      "url": "mailto:leo@huntreach.com"
-    }
-  ],
-  "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://app.huntreach.com"
+  "navbar": {
+    "links": [
+      {
+        "label": "Dashboard",
+        "href": "https://app.huntreach.com/dashboard"
+      },
+      {
+        "label": "Contact us",
+        "href": "mailto:leo@huntreach.com"
+      }
+    ]
   },
-  "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
+  "footer": {
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/huntreach"
+    }
   }
 }
